@@ -1,0 +1,44 @@
+{
+   "socialLinks": [
+       {
+           "name": "Twitch",
+           "url": "https://twitch.tv/GameJae",
+           "icon": "fab fa-twitch"
+       },
+       {
+           "name": "Threads",
+           "url": "https://tinyurl.com/BaconThreads",
+           "icon": "fab fa-threads"
+       },
+       {
+           "name": "Instagram",
+           "url": "https://instagram.com/GameJae",
+           "icon": "fab fa-instagram"
+       },
+       {
+           "name": "Twitter",
+           "url": "https://x.com/GameJae",
+           "icon": "fab fa-x-twitter"
+       },
+       {
+           "name": "Facebook",
+           "url": "",
+           "icon": "fab fa-facebook"
+       },
+       {
+           "name": "YouTube",
+           "url": "",
+           "icon": "fab fa-youtube"
+       },
+       {
+           "name": "Discord",
+           "url": "",
+           "icon": "fab fa-discord"
+       },
+       {
+           "name": "TikTok",
+           "url": "",
+           "icon": "fab fa-tiktok"
+       }
+   ]
+}
