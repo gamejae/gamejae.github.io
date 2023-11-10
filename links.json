@@ -6,11 +6,6 @@
            "icon": "fab fa-twitch"
        },
        {
-           "name": "Threads",
-           "url": "",
-           "icon": "fab fa-threads"
-       },
-       {
            "name": "Instagram",
            "url": "https://instagram.com/GameJae",
            "icon": "fab fa-instagram"
@@ -21,24 +16,14 @@
            "icon": "fab fa-x-twitter"
        },
        {
-           "name": "Facebook",
-           "url": "",
-           "icon": "fab fa-facebook"
-       },
-       {
            "name": "YouTube",
            "url": "",
            "icon": "fab fa-youtube"
        },
        {
            "name": "Discord",
-           "url": "",
+           "url": "https://gamejae.github.io/invite",
            "icon": "fab fa-discord"
-       },
-       {
-           "name": "TikTok",
-           "url": "",
-           "icon": "fab fa-tiktok"
        }
    ]
 }
