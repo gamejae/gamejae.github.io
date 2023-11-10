@@ -8,16 +8,22 @@ function fetchAndRenderSocialLinks() {
             // Clear existing social links
             socialLinksSection.innerHTML = '';
 
-            // Generate buttons for each social link
-            data.socialLinks.forEach((link) => {
-                const socialButton = document.createElement("a");
-                socialButton.href = link.url;
-                socialButton.target = "_blank";
-                socialButton.className = "btn btn-primary mr-2 mb-2";
-                socialButton.innerHTML = `${link.name} <i class="${link.icon}"></i>`;
+            // Check if there are any social links
+            if (data.socialLinks.length > 0) {
+                // Generate buttons for each social link
+                data.socialLinks.forEach((link) => {
+                    const socialButton = document.createElement("a");
+                    socialButton.href = link.url;
+                    socialButton.target = "_blank";
+                    socialButton.className = "btn btn-primary mr-2 mb-2";
+                    socialButton.innerHTML = `${link.name} <i class="${link.icon}"></i>`;
 
-                socialLinksSection.appendChild(socialButton);
-            });
+                    socialLinksSection.appendChild(socialButton);
+                });
+            } else {
+                // No social links, hide the social section
+                socialLinksSection.style.display = 'none';
+            }
         })
         .catch((error) => {
             console.error("Error loading social links:", error);
